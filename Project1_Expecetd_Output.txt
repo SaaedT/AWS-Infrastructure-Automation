@@ -1,0 +1,25 @@
+
+New VPC has been created successfully with id vpc-xxxxxx
+Public Subnets have been created successfully , their ids are subnet-xxxxxx and subnet-xxxxxx
+Private Subnets have been created successfully , their ids are subnet-xxxxxx and subnet-xxxxxx
+Internet Gateway has been created successfully , its id is igw-xxxxxx
+The New Route Table for public subnets have been created successfully with id rtb-xxxxxx
+NAT Gateways have been created successfully , their ids are nat-xxxxxx and nat-xxxxxx
+The New Route Tables for Private subnets have been created successfully with ids rtb-xxxxxx and rtb-xxxxxx
+NAT Gateway is being started......
+NAT Gateway is now up and available
+Security Group WebSG has been created successfully , its id is sg-xxxxxx
+Web and Application instances are being started ......
+All Instances are running now
+The new instances for Web and App have been created successfully, their ids are i-xxxxxx and i-xxxxxx
+The Target Group has been created successfully , its arn is arn:aws:elasticloadbalancing:us-east-1:039266304030:targetgroup/webTG/3c68005ff20857a6
+Security Group ALB_SG for Application Load Balancer has been created successfully , its id is sg-xxxxxx
+Application Load Balancer is being started ......
+Load Balancer is up and available now
+The Application Load Balancer has been created successfully , its arn is arn:aws:elasticloadbalancing:us-east-1:039266304030:loadbalancer/app/DolfinedLoadBalancer/7d8f9c1d9c43c97c and its DNS is DolfinedLoadBalancer-2031774011.us-east-1.elb.amazonaws.com
+The Auto Scaling Group has been created successfully , its arn is arn:aws:autoscaling:us-east-1:039266304030:autoScalingGroup:2e5cdfb8-f7a5-40e8-b1c6-a0bbe45e6e6f:autoScalingGroupName/DolfinedScalingGroup
+Security Group DB_SG has been created successfully , its id is sg-xxxxxx
+RDS Instance is being started ......
+RDS Instance is up and available now
+The RDS Instance DB has been created successfully , its arn is arn:aws:rds:us-east-1:039266304030:db:dolfineddbinstance and its DNS Address is dolfineddbinstance.cahnlkdx76kk.us-east-1.rds.amazonaws.com
+
