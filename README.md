@@ -20,15 +20,14 @@ This project automates the deployment of a highly available AWS infrastructure u
 - **Python 3.7+** installed
 - **boto3** library installed (`pip install boto3`)
 - An **IAM user** with permissions to create AWS resources
-- A **Key Pair** for SSH access to instances
-
+  
 ## Installation
 
 Clone the repository:
 
 ```bash
- git clone https://github.com/YourGitHubUsername/YourRepoName.git
- cd YourRepoName
+ git clone https://github.com/SaaedT/AWS-Infrastructure-Automation.git
+ cd AWS-Infrastructure-Automation
 ```
 
 Install dependencies:
@@ -45,16 +44,16 @@ pip install boto3
    ```
 2. Run the script:
    ```bash
-   python script_name.py
+   python test.py
    ```
 3. The script will output the created resources' details, such as **VPC ID, Subnet IDs, Security Group IDs, Load Balancer DNS, and RDS Endpoint**.
 
 ### Running in an IDE
 
-- You can run the script directly from **VS Code** or **PyCharm** by opening the project and executing `script_name.py`.
+- You can run the script directly from **VS Code** or **PyCharm** by opening the project and executing `test.py`.
 - Alternatively, run the script from the **Terminal / Command Prompt** using:
   ```bash
-  python script_name.py
+  python test.py
   ```
 
 ## Execution Steps
@@ -86,6 +85,7 @@ RDS Instance is up and available now
 
 (Full output can be found in the **`Project1_Expected_Output.txt`** file.)
 
+
 ## Improvements & Future Enhancements
 
 - Add **Logging and Error Handling** for better debugging
@@ -99,6 +99,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Author
 
-&#x20;&#x20;
-
-[Mo Saeed Tello]\([https://github.com/](https://github.com/AhmadAlhamwi)SaaedT)
+[Mo Saeed Tello](https://github.com/SaaedT)
