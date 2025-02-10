@@ -408,6 +408,7 @@ response = rds_client.create_db_instance(
     DBInstanceIdentifier='DolfinedDBInstance',
     DBInstanceClass='db.t2.micro',
     Engine='mysql',
+    EngineVersion='8.0.35',
     AllocatedStorage=10,
     MasterUsername='admin',
     MasterUserPassword='dolfineddb',
