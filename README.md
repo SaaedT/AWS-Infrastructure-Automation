@@ -83,7 +83,9 @@ Application Load Balancer is up and available now
 RDS Instance is up and available now
 ```
 
-(Full output can be found in the **`[Project1_Expected_Output.txt](Project1_Expected_Output.txt)`** file.) 
+(Full output can be found in the **`Project1_Expected_Output.txt`** file.) 
+
+- For full details, check the file: [Project1_Expected_Output.txt](Project1_Expected_Output.txt)
 
 
 ## Improvements & Future Enhancements
