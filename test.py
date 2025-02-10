@@ -332,7 +332,7 @@ elb_client.create_listener(
 )
 
 # 25 - Configure the auto-scaling group
-# A- Create the Launch Configuration
+# A- Create the Launch Template
 response = ec2_cli.create_launch_template(
     LaunchTemplateName='my-launch-template',
     VersionDescription='v1',
@@ -346,7 +346,7 @@ response = ec2_cli.create_launch_template(
 # B- Create the auto-scaling group
 autoscaling_client.create_auto_scaling_group(
     AutoScalingGroupName='DolfinedScalingGroup',
-    LaunchConfigurationName='my-launch-config',
+    LaunchTemplate={ 'LaunchTemplateName': 'my-launch-template' ,},
     MinSize=1,
     MaxSize=3,
     DesiredCapacity=1,
