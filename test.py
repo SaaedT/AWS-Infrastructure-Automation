@@ -406,7 +406,7 @@ rds_client.create_db_subnet_group(
 # D- Launch The Multi-AZ RDS database
 response = rds_client.create_db_instance(
     DBInstanceIdentifier='DolfinedDBInstance',
-    DBInstanceClass='db.t2.micro',
+    DBInstanceClass='db.t3.micro',
     Engine='mysql',
     EngineVersion='8.0.35',
     AllocatedStorage=10,
